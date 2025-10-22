@@ -40,6 +40,8 @@ Delhi	USD	Feb	1,692,738	8,352,849
 Month	Volume	Observation
 May	1.707M	Peak load – ensure capacity for high traffic.
 August	1.599M	Low traffic – ideal for audits or updates.
+
+
 ⚙️ Technical Details
 Component	Description
 Dashboard Tool	Power BI
@@ -47,16 +49,22 @@ Data Source	MySQL / SQL Server (Transaction Log Table)
 Data Processing	Power Query (for data cleaning & transformation)
 Hosting / Integration	Azure Cloud Storage (optional)
 Visualization Focus	Trend lines, KPIs, and comparison tables for multi-currency reconciliation
+
+
 🚀 How to Use
 Clone this repository to your local system.
 Open the .pbix (Power BI) file.
 Connect it to your latest SQL or Azure transaction dataset.
 Refresh the data and explore the insights.
+
+
 🎯 Purpose & Business Value
 Simplifies complex multi-currency reconciliation.
 Provides real-time visibility into transaction patterns.
 Supports data-driven financial decisions.
 Helps operations teams reduce discrepancies and optimize liquidity.
+
+
 🧠 Future Enhancements
 Integration with Power Automate for automated alerts on anomalies.
 Adding AI-based forecasting models for predicting transaction spikes.
